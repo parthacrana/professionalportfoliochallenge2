@@ -4,20 +4,89 @@
 }
 
 header {
-    margin: 15vh;
+    margin: 5vh;
     background: var(--topbottom);
 }
 
 header h1 {
     background: lightgreen;
+    text-align: left;
+    display: inline;
+    font-size: xx-large;
 }
 
 header h2 {
     background: lightpink;
+    display: inline-block;
+    text-align: right;
 }
 
+h3 {
+    display: inline;
+    background: lightpink;
+    text-align: left;
+    /* left: 10px; */
+}
+
+section p {
+    left: 15%;
+    margin-left: 120px;
+}
+
+/* lines seperating sections */
+.line {
+    border-right: 6px solid black;
+    height: 85%;
+    position: absolute;
+    left: 6%;
+    margin-left: -3px;
+    top: 15%;
+  }
+
+
+#mywork {
+   border: 10px solid blue;
+   margin: 5px;
+   box-shadow: inset;
+}
+
+#contactme {
+    border: 10px solid blue;
+    margin: 5px;
+    box-shadow: inset;
+}
+
+#resume {
+    border: 10px solid blue;
+    margin: 5px;
+    box-shadow: inset;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
-    margin: 15vh;
+    margin: 5vh;
     background: var(--topbottom);
+    text-align: center;
 }
 
