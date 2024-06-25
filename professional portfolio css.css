@@ -1,0 +1,23 @@
+:root {
+    --topbottom: aqua;
+    --body: blue;
+}
+
+header {
+    margin: 15vh;
+    background: var(--topbottom);
+}
+
+header h1 {
+    background: lightgreen;
+}
+
+header h2 {
+    background: lightpink;
+}
+
+footer {
+    margin: 15vh;
+    background: var(--topbottom);
+}
+
