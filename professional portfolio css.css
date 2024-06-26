@@ -1,15 +1,20 @@
+* {
+    font-family: cursive;
+}
+
 :root {
     --topbottom: aqua;
     --body: blue;
 }
 
-header {
+header, footer {
     margin: 5vh;
     background: var(--topbottom);
+    font-size: xx-large;
+    width: 100%;
 }
 
 header h1 {
-    background: lightgreen;
     text-align: left;
     display: inline;
     font-size: xx-large;
@@ -25,30 +30,89 @@ h3 {
     display: inline;
     background: lightpink;
     text-align: left;
-    /* left: 10px; */
+    font-size: x-large;
 }
 
 section p {
-    left: 15%;
-    margin-left: 120px;
+    left: 20%;
+    margin-left: 150px;
 }
 
 /* lines seperating sections */
 .line {
     border-right: 6px solid black;
-    height: 85%;
+    height: 200%;
     position: absolute;
-    left: 6%;
+    left: 8%;
     margin-left: -3px;
     top: 15%;
-  }
+}
+
+/* section {
+    scroll-behavior: smooth;
+} */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: black;
+    padding: 5px 10px;
+    text-align: justify;
+    top: 50px;
+}
 
 
-#mywork {
+#work {
    border: 10px solid blue;
    margin: 5px;
-   box-shadow: inset;
 }
+
+.card {
+    border: 2px dashed green;
+    margin-left: 70%;
+    padding: 50%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.cardone {
+    border: 2px dashed green;
+    margin-left: 70%;
+    padding: 50%;
+    width: 200%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+section h3 {
+    left: 50px;
+    border: 10px solid goldenrod;
+}
+
+
+/* 
+nav div {
+    border: 5px solid black;
+    width: 1000px;
+    padding: 10px;
+    height: 500%;
+    left: 150px;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+    
+
+} */
 
 #contactme {
     border: 10px solid blue;
@@ -67,9 +131,17 @@ section {
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 992px) {
+    .card{
+        width: 45%;
+    }
+}
 
-
-
+@media screen and (max-width: 992px) {
+    .card{
+        width: 90%;
+    }
+}
 
 
 
@@ -88,5 +160,6 @@ footer {
     margin: 5vh;
     background: var(--topbottom);
     text-align: center;
+    font-size: large;
 }
 
