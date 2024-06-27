@@ -19,3 +19,9 @@ I learned a lot, but naturally, I still have to brush up more on some specific c
 
 My next portfolio, will be even better. I take this not as a failure, but as a learning experience. 
 
+As before, here are the screenshots of my this portfolio. 
+
+![image](https://github.com/parthacrana/professionalportfoliochallenge2/assets/122179383/a166bda6-0351-4ec5-ba40-cedd62b637a5)
+
+![image](https://github.com/parthacrana/professionalportfoliochallenge2/assets/122179383/8b1bed67-c4be-4d4d-a119-e436959d027c)
+
